@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer nav a{
+text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, .5);
+  font-size: 14px;
+}

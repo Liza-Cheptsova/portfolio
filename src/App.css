@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 400 14px/1.8 'Anonymous Pro', monospace;
+    color: #fff;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapp h3{
+    font: 400 25px/1.4 'Kurale', serif;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.wrapp h3:after{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background: #ea548d;
+    bottom: -20px;
+    left: calc(50% - 35px);
+}
+
+.DarkBg {
+  background: #1f1f20;
+    padding: 50px 0;
+}
+
+.LighterBg {
+ background: #252527;
+    padding: 50px 0;
+}
+

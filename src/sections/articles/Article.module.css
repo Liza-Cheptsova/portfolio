@@ -1,0 +1,55 @@
+.articleWrap {
+    background: #252527;
+    width: 40%;
+    margin:15px;
+}
+
+.articleWrap img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.articleWrap h4{
+    margin: 0px;
+    font: 600 16px/20px 'Kurale', serif;
+}
+
+.articleWrap p{
+    margin: 10px 0px 20px 0;
+    font: 400 14px/20px 'Anonymous Pro', monospace;
+}
+
+.articleWrap a{
+display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font: 600 14px/20px 'Anonymous Pro', monospace;
+    z-index: 1;
+    width: 70px;
+}
+
+.articleWrap a:after {
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0px;
+    width: 100%;
+    background-color: #e9548d;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.articleWrap a:hover:after {
+    height: 7px;
+    opacity: 1;
+}
+
+.indents {
+    padding: 0 15px 15px 15px;
+}

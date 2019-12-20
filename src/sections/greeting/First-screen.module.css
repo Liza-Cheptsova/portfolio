@@ -1,0 +1,12 @@
+.darkBg {
+    background: #1f1f20;
+}
+.fullScreen {
+    height: 100vh;
+}
+
+.centring {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

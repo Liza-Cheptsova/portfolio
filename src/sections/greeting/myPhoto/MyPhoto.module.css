@@ -1,0 +1,41 @@
+.photo {
+    position: relative;
+    z-index: 1;
+    transition: .5s linear;
+}
+
+.photo img {
+max-height: 400px;
+   position: relative;
+}
+
+.photo::before {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: 4px;
+    z-index: -1;
+    background: linear-gradient(315deg, #ea548d,#5d02ff);
+    transform: skew(2deg,2deg);
+}
+
+.photo::after {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: 4px;
+    z-index: -2;
+    background: linear-gradient(315deg, #ea548d,#5d02ff);
+    transform: skew(2deg,2deg);
+    /*filter: blur(10px);*/
+    transition: .5s linear;
+}
+
+.photo:hover::after {
+    filter: blur(15px);
+    transition: .5s linear;
+}

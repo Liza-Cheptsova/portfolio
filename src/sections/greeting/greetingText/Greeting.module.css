@@ -1,0 +1,33 @@
+
+.greeatingTitles h1 {
+    margin: 10px 0;
+    font: 700 30px/1.2 'Kurale', serif;
+    letter-spacing: 2px;
+}
+
+.greeatingTitles h1 span {
+    position: relative;
+    z-index: 2;
+}
+
+.greeatingTitles h1 span::after {
+content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background: #ea548d;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    z-index: -1;
+}
+
+.greeatingTitles span {
+
+}
+
+.greeatingTitles p {
+    margin: 0;
+    font-size: 20px;
+}
+
